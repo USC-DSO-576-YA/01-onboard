@@ -18,7 +18,7 @@ this week is the Q2 plan review that tells her which one.
 | `analysis-prompt.md` | This week's task, written as a prompt. Tell your agent: *"Execute @analysis-prompt.md"* |
 | `members.csv` | The data: one row per member whose subscription came up for renewal in Q2 2026 (April–June). Columns: `member_id`, `plan`, `renewal_month`, `reminder_sent`, `renewed`. |
 | `notes/metrics.md` | The team's metric definitions — what a renewal rate is here, and what the columns mean. |
-| `plan_summary.py` | The script the last analyst ran each quarter. Plain Python, no pandas. Run `python plan_summary.py` (Windows) or `python3 plan_summary.py` (Mac); `uv run python plan_summary.py` works on either. |
+| `plan_summary.py` | The script the last analyst ran each quarter. Plain Python, no pandas. Run it with `uv run python plan_summary.py` (plain `python plan_summary.py` on Windows / `python3` on Mac also works). |
 | `report_template.md` | The standard one-page plan review. Same shape every quarter. |
 | `AGENTS.md` | The house rules a coding agent follows in this repo. |
 | `plan_memo.md` | The template for what you hand in. Fill it in and upload it to Brightspace. |
