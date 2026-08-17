@@ -4,7 +4,7 @@ Reads members.csv and prints the standard plan table, lowest renewal rate
 first. Definitions are in notes/metrics.md -- this script is just that document
 in code, so don't change the arithmetic here without changing that first.
 
-    python3 plan_summary.py
+    uv run python plan_summary.py
 
 Written for the Q3 2025 review, rerun each quarter since.  -- M. Ferro
 """
